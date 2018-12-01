@@ -53,7 +53,7 @@
   - This was the Honeypot that received the most hits with a total of
   
  - Suricata
-  - # of Attacks:
+  - Number of Attacks:
   - Europe North Server
   - DST port 80 // Protocol TCP
   - Continous hits from an IP address that leads back to Linode, LLC.
