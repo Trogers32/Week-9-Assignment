@@ -14,28 +14,46 @@
 
 ## Issues:
 
-- The firewall script did not include a "-1" at the end of it, which would mark the mhn-honeypot-1 as one of the target tags.
+- The firewall rule script did not include a "-1" at the end of it, which would mark the mhn-honeypot-1 as one of the target tags.
   - Initially thought that my normal computer firewall was blocking the traffic until looking further into the firewall rules on the GCD website.
 
-- The wget command to execute the script to install the desired honeypot was using an unreachable IP address. Corrected this by using the mhn-admin IP address.
+- The wget command to execute the script to install the desired honeypot was using an unreachable IP address. Upon executing the command the script would hang until it timed out and would automatically retry the connection. Corrected this by using the mhn-admin IP address.
 
 ## Summary of the data collected:
 
+**Collection started at 1630 on 30 November, 2018.**
+
 - Dionaea
+  - # of Attacks: 
+  - US West Server
   - Dst port 3389 // Protocol pcap
   - Src countries: Russia, Taiwan
 
 - ElasticHoney
+  - # of Attacks: 
+  - US West Server
 
 - Wordpot
+  - # of Attacks: 
+  - US West Server
 
 - Cowrie
+  - # of Attacks: 
+  - US East Server
   - Dst port 22 // Protocol ssh
-  - Src countries: China
+  - Src countries: China, Vietnam, USA
 
 - p0f
+  - # of Attacks: 
+  - US East Server
   - Dst port 22 // Protocol pcap
   - Src countries: Many
   - This was the Honeypot that received the most hits with a total of
+  
+ - Suricata
+  - # of Attacks:
+  - Europe North Server
+  - DST port 80 // Protocol TCP
+  - Continous hits from an IP address that leads back to Linode, LLC.
 
 ### Unresolved questions:
