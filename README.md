@@ -12,6 +12,8 @@
 
 - p0f -a "tool that utilizes an array of sophisticated, purely passive traffic fingerprinting mechanisms to identify the players behind any incidental TCP/IP communications (often as little as a single normal SYN) without interfering in any way."
 
+- Suricata -"capable of real time intrusion detection (IDS), inline intrusion prevention (IPS), network security monitoring (NSM) and offline pcap processing."
+
 ## Issues:
 
 - The firewall rule script did not include a "-1" at the end of it, which would mark the mhn-honeypot-1 as one of the target tags.
