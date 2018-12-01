@@ -24,27 +24,27 @@
 **Collection started at 1630 on 30 November, 2018.**
 
 - Dionaea
-  - # of Attacks: 
+  - Number of Attacks: 
   - US West Server
   - Dst port 3389 // Protocol pcap
-  - Src countries: Russia, Taiwan
+  - Src countries: Russia, Taiwan, Seychelles, Netherlands, Ukraine
 
 - ElasticHoney
-  - # of Attacks: 
+  - Number of Attacks: 
   - US West Server
 
 - Wordpot
-  - # of Attacks: 
+  - Number of Attacks: 
   - US West Server
 
 - Cowrie
-  - # of Attacks: 
+  - Number of Attacks: 
   - US East Server
   - Dst port 22 // Protocol ssh
-  - Src countries: China, Vietnam, USA
+  - Src countries: China, Vietnam, USA, France
 
 - p0f
-  - # of Attacks: 
+  - Number of Attacks: 
   - US East Server
   - Dst port 22 // Protocol pcap
   - Src countries: Many
