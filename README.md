@@ -25,9 +25,9 @@
 
 - Hours spent trying to download the json file from the vm instance: 6
   - Tried searching for different ways to download or transfer the files on the google cloud platform.
-  - Tried downloading the WinSCP and adding it to the Environment Variable PATH
-  - Tried separate file names and possible database and collection names
-  - Spent time looking through the structure of the mhn-admin vm directory and testing to see if the commands were passing through the correct path
+  - Tried downloading WinSCP and adding it to the Environment Variable PATH.
+  - Tried separate file names and possible database and collection names.
+  - Spent time looking through the structure of the mhn-admin vm directory and testing to see if the commands were passing through the correct path.
   - **The correct commands are: ** 
     - mongoexport --db mnemosyne --collection session > session.json
       - This had to be done within the "gcloud compute ssh mhn-admin"
