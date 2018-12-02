@@ -1,6 +1,6 @@
 # Week-9-Assignment
 
-## Honeypots used:
+## _Honeypots used:_
 
 ##### I started off with these: 
 - Dionaea - "meant to be a nepenthes successor, embedding python as scripting language, using libemu to detect shellcodes, supporting ipv6 and tls."
