@@ -28,7 +28,7 @@
   - Tried downloading WinSCP and adding it to the Environment Variable PATH.
   - Tried separate file names and possible database and collection names.
   - Spent time looking through the structure of the mhn-admin vm directory and testing to see if the commands were passing through the correct path.
-  - **The correct commands are: ** 
+  - **The correct commands are:** 
     - mongoexport --db mnemosyne --collection session > session.json
       - This had to be done within the "gcloud compute ssh mhn-admin"
     - gcloud compute scp mhn-admin:./session.json ./session.json 
